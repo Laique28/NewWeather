@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App| Mr.Laique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome To Weather Forecast</h1>
+    <form>
+        <input type="text" placeholder="Enter City Name " id="cityName" id="clearText">
+        <button type="submit" id="buttonClicked">Search</button>
+    </form>
+    <div class="container" id="maincon" style="display: none;">
+        <p id="cityname">Chennai</p>
+        <p id="temp">Temperature :<span id="stemp"></span>°C</p>
+        <p id="feelstemp">Feels Like :<span id="sfeelstemp"></span>°C</p>
+        <p id="mintemp">Min Temp :<span id="smintemp"></span>°C</p>
+        <p id="maxtemp">Max Temp :<span id="smaxtemp"></span>°C</p>
+        <p id="hum">Humidity :<span id="shum"></span>% </p>
+        <p id="wind">Wind Speed :<span id="swind"></span> 💨</p>
+        <p id="logo"><span id="slogo">☀</span></p>
+
+    </div>
+    <p id="errormsg" style="display: none;">Error Couldn't Find!!! Try Again</p>
+</body>
+<script src="script.js"></script>
+
+</html>
